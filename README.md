@@ -6,3 +6,8 @@ The start function serves as a good template for any other functions you might w
     application.add_handler(unique_handler)
 
 And there must be an internal or external function which it calls.
+
+
+This repo includes requirements.txt :
+
+pip install -r requirements.txt
