@@ -27,5 +27,5 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Ignore TGBOTsecres.py
-TGBOTsecres.py
+# Ignore TGBOTsecrets.py
+TGBOTsecrets.py
