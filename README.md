@@ -9,9 +9,9 @@ Ideally I would like to make this an accessible starting point even for those wi
 ### Clone Git
 
 Clone the git to the machine you want to host it on. In this case:
-´´´
+~~~
 $ git clone https://github.com/puurpl/telegram_bot.git
-´´´
+~~~
 
 ### Setup Environment
 
@@ -19,14 +19,14 @@ If you are already familiar with running Python programs and setting up virtual 
 Otherwise I recommend setting up a virtual environment for this project before runnint it. First make sure that Python is installed and available on your machine.
 Then set up the virtual environment:
 
-´´´
+~~~
 $ cd telegram_bot # Go to the project directory
 $ python3 -m venv venv 
 $ source venv/bin/activate # This works on my Mac
 $ . venv/bin/activate # This works on many Linux distros
 
 $ pip install -r requirements.txt # Install the requirements
-´´´
+~~~
 
 ### Setup Credentials
 
