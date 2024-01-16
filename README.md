@@ -50,3 +50,5 @@ And there must be an internal or external function which it calls.
 ## Future Development
 
 There are no development plans. The purpose of this repo is to be a simple starting template for any TG bot. I am planning on creating forks of this project to create templates for various use cases.
+If you can improve on the implementation of this bot then please feel free to submit a pull request.
+And if you have any issues then please feel free to submit them and I will check it out as soon as I can.
