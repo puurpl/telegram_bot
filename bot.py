@@ -69,7 +69,7 @@ def admin_only(handler):
 async def authorize_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
     global AUTHORIZED_USERS
     if context.args == []:
-        user_id_to_add = await context.bot.(chat_id=update.effective_chat.id, text="Please send me the user ID of the user you want to authorize.")     
+        user_id_to_add = await context.bot(chat_id=update.effective_chat.id, text="Please send me the user ID of the user you want to authorize.")     
     user_id_to_add = context.args[0]
     if AUTHORIZED_USERS:
         AUTHORIZED_USERS.append(user_id_to_add)
